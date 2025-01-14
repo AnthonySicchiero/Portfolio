@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+body {
+    background-image: url(../img/dfu0crx-a06bacea-1256-4c65-a693-57a1a5ce20ab.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Reddit Mono", monospace;
+    color: white;
+    font-size: 17px;
+}
+
+.inhead {
+    font-size: 25px;
+    height: 50vh;
+}
+
+h1 {
+    font-size: 80px;
+    color: rgb(206, 31, 31);
+    font-weight: 500;
+}
+
+h2 {
+    color: rgb(206, 31, 31);
+    font-weight: 700;
+}
+
+h3 {
+    color: rgb(206, 31, 31)
+}
+
+h4 {
+    color: rgb(206, 31, 31)
+}
+
+.section-title {
+    color: rgb(206, 31, 31);
+    font-size: 2.3rem;
+}
+
+button {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: rgb(206, 31, 31);
+    background-color: rgba(32, 32, 32, 0.377);
+    border: 2px solid rgb(206, 31, 31);
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    background-color: rgb(206, 31, 31);
+    color: white;
+}
+
+.skills {
+    transition: 0.3s ease;
+}
+
+.skills:hover {
+    transform: rotate(5deg) scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.cv-photo img {
+    height: 390px;
+    width: 375px;
+    border-radius: 50px;
+    border: solid black 3px;
+    transition: 0.3s ease;
+}
+
+.cv-photo img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.container-bg {
+    background-color: rgba(12, 12, 12, 0.952);
+    border-radius: 40px;
+    padding: 15px;
+    border: rgba(140, 10, 10, 0.9) solid 1px;
+}
+
+.card {
+    border: rgba(140, 10, 10, 0.9) solid 1px;
+    height: 450px;
+    transition: 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+}
+
+.card:hover {
+    color: black;
+    background-color: rgba(228, 228, 228, 0.904);
+    transform: scale(1.1);
+    transition: transform 0.3s ease
+}
+
+ul {
+    list-style-type: none;
+}
+
+.my-6 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
